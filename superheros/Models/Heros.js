@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 
 
-const HeroSchema = () => mongoose.Schema({
+const HeroSchema = mongoose.Schema({
     superHero: {
         type: String,
         required: [true, 'Please enter SuperHero name'],
